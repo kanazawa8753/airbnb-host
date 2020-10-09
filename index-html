@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+   <div class="airbnb-logo">
+     <img class="logo-img" src="Airbnb_icon-icons.com_66791.png">
+
+     <ul class="header-menu">
+       <li><a href="#">概要</a></li>
+       <li><a href="zuynbi.html">準備</a></li>
+       <li><a href="#">安全</a></li>
+       <li><a href="#">マネープラン</a></li>
+     </ul>
+
+     <div class="start">
+       <a href="#" class="starturl">はじめる</a>
+     </div>
+
+   </div>
+  </header>
+
+  <header-top>
+  <div class="container">
+   <div class="syukuhaku">
+     <h2 class="kurasilevel">Airbnbホストになっ<br>て、暮らしをレベルア<br>ップ
+    </h2>
+    <p class="naiyo">宿泊施設の内容を記入</p>
+    <div class="nyuuryoku">
+     <input type="text" name="place" id="place" value="東京" class="tokyo">
+
+     <select id="kasikiri">
+       <option class="kasikiridayo">まるまる貸し切り</option>
+       <option class="kositu">個室</option>
+       <option class="share">シェアルーム</option>
+     </select>
+
+     <select id="kasikiri-gest">
+      <option class="yon">ゲスト4人</option>
+      <option class="iti">ゲスト1人</option>
+      <option class="ni">ゲスト2人</option>
+      <option class="san">ゲスト3人</option>
+      <option class="go">ゲスト5人</option>
+      <option class="roku">ゲスト6人</option>
+      <option class="nana">ゲスト7人</option>
+      <option class="hati">ゲスト8人</option>
+      <option class="yon">ゲスト9人</option>
+      <option class="zyu">ゲスト10人</option>
+      <option class="zyuiti">ゲスト11人</option>
+      <option class="zyuni">ゲスト12人</option>
+      <option class="zyusan">ゲスト13人</option>
+      <option class="zyuyon">ゲスト14人</option>
+      <option class="zyugo">ゲスト15人</option>
+      <option class="zyuroku">ゲスト16人</option>
+    </select>
+
+    <div class="start-sub">
+      <a href="#" class="start-sub-url">はじめる</a>
+    </div>
+    </div>
+   </div>
+  </div>
+  </header-top>
+
+  <main>
+    <div class="container-all">
+   <div class="main-container">
+     <div class="hosutoriyu">
+      <h3 class="hosyriyu-title">Airbnbでホストするこれだけの理由
+      </h3>
+      <p class="hostnaiyo">どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェア<br>でき、世界中の旅好きな仲間とつながれます。 予約可能日か<br>ら料金、ハウスルール、ゲストとの交流程度まで、すべて自<br>分で決めることができます。
+      </p>
+     </div>
+
+     <div class="ansin">
+      <h3 class="hosyriyu-title">困ったときも安心
+      </h3>
+      <p class="hostnaiyo">万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償<br>責任保険が全予約に自動付帯。ホストのみなさまと建物・家<br>財の安全をお守りするため全力で取り組んでいます。
+      </p>
+     </div>
+   </div>
+  </main>
+
+  <main-sub>
+    <h1 class="hosthing">3ステップでホスティング</h1>
+
+    <div class="hosthing-list">
+      <div class="hosthing-iti">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
+        </svg>
+        <h3 class="title-iti">
+          無料でお部屋を掲載
+        </h3>
+        <p class="hosthing-naiyou">共有のリビングルームから別荘に至るま<br>で、どんなスペースでも登録料なしで共<br>有しましょう。</p>
+      </div>
+
+      <div class="hosthing-ni">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
+        </svg>
+        <h3 class="title-ni">
+          ホスティング方法を設定
+        </h3>
+        <p class="hosthing-naiyou">スケジュール、料金、ゲストへの要件を<br>ご自身で選択しましょう。 お困りの際に<br>はいつでもサポートいたします。</p>
+      </div>
+
+      <div class="hosthing-san">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
+        </svg>
+        <h3 class="title-san">
+          はじめてのゲストが来ま<br>す！
+        </h3>
+        <p class="hosthing-naiyou">リスティングが掲載されると、条件にか<br>なったゲストから連絡を受けとることが<br>できます。 ゲストの到着前に質問があれ<br>ばメッセージを送信できます。</p>
+
+        <a href="#" class="tyeck">ホストをはじめる方法をチェック</a>
+      </div>
+    </div>
+  </main-sub>
+
+
+  <main-sub-iti>
+    <div class="london-host">
+      <div class="left-host">
+        <h1 class="kigou">“</h1>
+        <h1 class="left-host-title">「ホスト保証」があったから<br>Airbnb参加を決めたといって<br>も過言でないほどで、被害や<br>トラブルがあったときに頼れ<br>るサポートがあるのは本当に<br>ありがたいですね。</h1>
+        <p class="london-coment">Dennisさんはロンドンのホスト。自由度の高さに魅力を感<br>じています</p>
+        <a href="#" class="zissennrei">ホスト実践例をチェック</a>
+      </div>
+
+      <div class="dennis">
+        <img src="8e6c68cc-e714-4849-bad9-464abf58e84a (1).jpg" class="dennis-img">
+      </div>
+    </div>
+  </main-sub-iti>
+
+
+  <main-sub-ni>
+    <div class="main-bar">
+      <h2 class="hosthing">万一のときも安心です</h2>
+      <div class="bar-list-coment">
+      <div class="left-bar">
+        <p class="left-bar-coment">
+          大切なお家にお迎えする相手選びは、信頼第一で進めたい<br>ですよね。 その思いに応えるため、Airbnbでは宿泊者に求<br>める厳格な要件をホスト自身の手で設定し、滞在前にお互<br>い交流できるシステムを採用しています。 万一のトラブル<br>のときには、Airbnbが全力でサポートします。 建物・家財<br>の被害は「ホスト保証」、賠償責任は「ホスト補償保険」<br>でカバー。ホストのみなさまのあらゆるシチュエーション<br>に対処しています。
+        </p>
+        <a href="#" class="bar-tyeku">ホストを守るAirbnbの仕組みをチェック</a>
+      </div>
+
+      <div class="bar-list">
+        <ul class="bar-sub-list">
+          <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg>予約前に政府発行の身分証明書を求める権限</li>
+          <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg>ハウスルールに同意しないと泊まれない
+          </li>
+          <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg>過去の宿泊のレビューもばっちり読める
+          </li>
+          <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg>財物損害は¥100,000,000まで無料で補償
+          </li>
+          <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg>$1,000,000の賠償責任保険が無料で付帯
+          </li>
+          <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </svg>24時間365日対応グローバルカスタマーサポート
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="bar-img">
+        <img src="bb358a46-fa25-4895-b5fd-048a386bdcac.jpg" class="bar-syb-img">
+      </div>
+    </div>
+  </main-sub-ni>
+
+
+  <main-ni>
+    <div class="simple-kesai">
+      <h2 class="hosthing">シンプルな決済</h2>
+
+      <div class="hosthing-list">
+      <div class="hosthing-iti">
+        
+        <h3 class="title-iti">
+          料金設定は完全に自由
+        </h3>
+        <p class="hosthing-naiyou">料金は常に自由に選択できます。 迷った<br>ときには、 域内需要に合わせて設定でき<br>るツールがあります。</p>
+      </div>
+
+      <div class="hosthing-ni">
+        
+        <h3 class="title-ni">
+          手数料が安い
+        </h3>
+        <p class="hosthing-naiyou">登録に費用は一切かかりません。Airbnb<br>は通常、予約ごとに業界で最低の均一<br>3％をサービス料としていただいておりま<br>す。</p>
+      </div>
+
+      <div class="hosthing-san">
+       
+        <h3 class="title-san">
+          迅速な支払い
+
+        </h3>
+        <p class="hosthing-naiyou">ゲストのチェックイン後に、Paypal、直<br>接振り込み、またはその他の利用可能な<br>方法で受取金を送金できます。
+        </p>
+
+        <a href="#" class="syunyu">Airbnb収入を得るまでの流れを見る</a>
+    </div>
+    </div>
+  </main-ni>
+
+  <main-san>
+    <div class="tessa-bar">
+     <div class="left-tessa">
+       <img src="4e8524b4-205e-4fdf-9f0a-f1f36905c8f6.jpg" class="tessa-img">
+     </div>
+
+     <div class="tessa-comment">
+      <h1 class="kigou">“</h1>
+      <h1 class="left-host-title">ホスト収入でキッチンリフォ<br>ーム。お家をいろいろアップ<br>グレードしました。
+      </h1>
+      <p class="london-coment">Tessaさんはロンドン在住。ホストになって経済的なゆとり<br>ができました</p>
+      <a href="#" class="zissennrei">ホスト実践例をチェック</a>
+    </div>
+     </div>
+    </div>
+  </main-san>
+
+  <main-yon>
+    <div class="about-airbnb">
+      <h2 class="hosthing">Airbnbについて</h2>
+  
+      <div class="hosthing-list">
+      <div class="hosthing-iti">
+        
+        <h3 class="title-iti">
+          Airbnbとは？
+        </h3>
+        <p class="hosthing-naiyou">Airbnbは世界中の宿泊先や体験と人々をつなぎます。 ホス<br>トたちが原動力となるコミュニティが、地元のように旅するユ<br>ニークな機会をゲストに提供しています。</p>
+      </div>
+  
+      <div class="hosthing-ni">
+        
+        <h3 class="title-ni">
+          ホスティングとは？
+        </h3>
+        <p class="hosthing-naiyou">空いているお部屋やお家、得意分野があるなら、世界中の仲<br>間とシェアして暮らしをステップアップできます。 掲載でき<br>るのはお部屋や体験です。掛け持ちもOK。 無理のないペース<br>でできます。</p>
+          <a href="#" class="syunyu">体験ホスティングの詳細はこちら</a>
+      </div>
+    </div>
+     </div>
+  </main-yon>
+
+  <main-go>
+    <div class="question">
+      <h2 class="hosthing">よくある質問</h2>
+
+     <div class="question-itiran">
+      <div class="question-left">
+        <div class="question-iti">
+          <p class="answer">
+            <a href="#">Airbnbホストになれるのはどんな人？</a>
+          </p>
+        </div>
+
+        <div class="question-san">
+          <p class="answer">
+            <a href="#">予約前にゲストに求められる要件は？</a>
+          </p>
+        </div>
+
+        <div class="question-yon">
+          <p class="answer">
+            <a href="#">お部屋の掲載料はいくら？</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="question-right">
+        <div class="question-yon">
+          <p class="answer">
+            <a href="#">家財破損があった場合、どのような補償がありますか？</a>
+          </p>
+        </div>
+
+        <div class="question-go">
+          <p class="answer">
+            <a href="#">リスティングの料金を選ぶには？</a>
+          </p>
+        </div>
+
+        <div class="question-roku">
+          <p class="answer">
+            <a href="#">料金設定の支援ツールはありますか？</a>
+          </p>
+        </div>
+       </div> 
+      </div>
+    </div>
+  </main-go>
+
+  <main-roku>
+    <div class="hosthing-title">
+    <h3 class="shosai-title">ホスティングの詳細はこちら</h3>
+    <div class="hosthing-syosa">
+        <div class="syosa-iti">
+          <a class="box" href="#">
+         <img src="489faa5d-9519-48fa-aa0e-fe9673165e43.jpg" class="iti-img">
+         <h3 class="syokisettei">初期設定</h3>
+          <p class="syokicome">ホスティング入門ガイド</p>
+          <p class="kuwasiku" href="#">もっと詳しく</p>
+        </a>
+        </div>
+
+        <div class="syosa-ni">
+          <a class="box" href="#">
+            <img src="b77eb430-aa14-4ceb-a832-109341f798cd.jpg" class="ni-img">
+            <h3 class="syokisettei">安全</h3>
+             <p class="syokicome">ホストを守るAirbnbのしくみ</p>
+             <p class="kuwasiku" href="#">もっと詳しく</p></a>
+        </div>
+
+        <div class="syosa-san">
+          <a class="box" href="#">
+            <img src="1ad4d764-38a6-464b-8fdd-b0f3339adf2f.jpg" class="san-img">
+            <h3 class="syokisettei">マネープラン</h3>
+             <p class="syokicome">Airbnbで収益を得るには</p>
+             <p class="kuwasiku" href="#">もっと詳しく</p>
+             </a>
+        </div>
+      </div>
+    </div>
+  </main-roku>
+  
+  <main-nana>
+    <div class="sanyuekikar-main">
+    <div class="syuekikaran">
+      <h2 class="syuekika">収益化してみま<br>すか？</h2>
+      <a class="box-start" href="#">はじめる</a>
+     </div>
+    </div>
+  </main-nana>
+</div>
+
+<footer>
+  <div class="footer-menu">
+    <div class="kigyou">
+      <ul class="footer-list">企業情報
+      <li><a href="#">Airbnbのご利用方法</a></li>
+      <li> <a href="#">ニュースルーム</a></li>
+      <li> <a href="#">Airbnb Plus</a></li>
+      <li><a href="#">Airbnb Luxe</a></li>
+      <li><a href="#">HotelTonight</a></li>
+      <li><a href="#">Airbnbビジネスプログラム</a></li>
+      <li><a href="#">オリンピック</a></li>
+      <li><a href="#">採用情報</a></li>
+    </ul>
+    </div>
+
+    <div class="cominithi">
+      <ul class="footer-list">コミュニティ
+      <li><a href="#">ダイバーシティ＆ビロンギング</a></li>
+        <li><a href="#">アクセシビリティ対応</a></li>
+          <li><a href="#">Airbnbアソシエイト</a></li>
+            <li> <a href="#">お友達を招待</a></li>
+          </ul>
+    </div>
+
+    <div class="footer-host">
+      <ul class="footer-list">ホスト
+        <li> <a href="#">お部屋を掲載</a></li>
+          <li>  <a href="#">オンライン体験をホストする</a></li>
+            <li>  <a href="#">体験をホストする</a></li>
+              <li>  <a href="#">CEOブライアン・チェスキーからのメッセ<br>ージ</a></li>
+                <li> <a href="#">責任あるホスティング</a></li>
+                  <li>  <a href="#">オープンホーム</a></li>
+                    <li>  <a href="#">リソースセンター</a></li>
+                      <li>  <a href="#">コミュニティセンター</a></li>
+                      </ul>
+    </div>
+
+    <div class="footer-host">
+      <ul class="footer-list">サポート
+        <li>  <a href="#">新型コロナウイルスに関する最新情報</a></li>
+          <li>  <a href="#">ヘルプセンター</a></li>
+            <li>  <a href="#">キャンセルオプション</a></li>
+              <li>  <a href="#">近隣コミュニティサポート</a></li>
+                <li> <a href="#">信頼＆安全</a></li>
+    </ul>
+    </div>
+  </div>
+</footer>
+
+<footer-sub>
+  <div class="saigo">
+  <div class="footer-sub">
+    <p class="kankoutyo"><a href="#">Airbnb Global Services Limited<br>
+      観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a></p>
+      <div class="fotter-yoko">
+      <div class="yokonarabi">
+      <p class="copy">© 2020 Airbnb, Inc. All rights reserved</p>
+    </div>
+      <ul class="praivacy">
+        <li><a href="#">プライバシー</a></li>
+        <li><a href="#">利用規約</a></li>
+        <li><a href="#">サイトマップ</a></li>
+        <li><a href="#"></a>企業情報</li>
+      </ul>
+    </div>
+  </div>
+
+
+    <div class="right-footer">
+      <p class="jp"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-diamond" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+        <path fill-rule="evenodd" d="M8.361 1.17a.51.51 0 0 0-.722 0L4.766 4.044 8 7.278l3.234-3.234L8.361 1.17zm3.595 3.596L8.722 8l3.234 3.234 2.873-2.873c.2-.2.2-.523 0-.722l-2.873-2.873zm-.722 7.19L8 8.722l-3.234 3.234 2.873 2.873c.2.2.523.2.722 0l2.873-2.873zm-7.19-.722L7.278 8 4.044 4.766 1.17 7.639a.511.511 0 0 0 0 .722l2.874 2.873zM6.917.45a1.531 1.531 0 0 1 2.166 0l6.469 6.468a1.532 1.532 0 0 1 0 2.166l-6.47 6.469a1.532 1.532 0 0 1-2.165 0L.45 9.082a1.531 1.531 0 0 1 0-2.165L6.917.45z"/>
+      </svg><a href="#">日本語(jp)</a></p>
+      <p class="doru">¥<a class="jpy" href="#">JPY</a></p>
+      <div class="aicon">
+       <a href="#"><span class="fab fa-facebook"></span></a>
+       <a href="#"><span class="fab fa-twitter"></span></a>
+       <a href="#"><span class="fab fa-instagram"></span></a>
+      </div>
+
+
+    </div>
+  </div>
+</footer-sub>
+</body>
+</html>
